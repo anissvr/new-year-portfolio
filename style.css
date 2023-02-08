@@ -6,4 +6,33 @@
 }
 header{
     background-image: url("images/banner/banner3.png");
+    background-position: center;
+    background-size: cover;
+    padding:150px 100px;
+    
+}
+.content-area{
+    text-align: right;
+    
+}
+.header-title{
+    
+    color: white;
+    font-size: 65px;
+}
+.header-des{
+    font-size: 14px;
+    margin: 20px 0px;
+    color: #cacaca;
+    line-height: 26px;
+}
+.btn{
+    text-decoration: none;
+    display:inline-block;
+    padding: 15px 20px;
+    background-color: white;
+    color: #0065B2;
+    font-weight: 600;
+    border-radius: 5px;
+
 }
