@@ -9,14 +9,10 @@ header{
     background-position: center;
     background-size: cover;
     padding:150px 100px;
-    
-}
-.content-area{
     text-align: right;
     
 }
 .header-title{
-    
     color: white;
     font-size: 65px;
 }
@@ -35,4 +31,59 @@ header{
     font-weight: 600;
     border-radius: 5px;
 
+}
+/* =========reson-section============ */
+.reson-section{
+    padding: 50px 120px;
+    text-align: left;
+}
+.reson-area{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;  
+}
+.reson-area img{
+    width: 500px;
+}
+.section-title {
+    font-size: 30px;
+}
+.content-area p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.content-area i{
+    color: #0065B2;
+}
+/* =========plan-section============ */
+.plan-section{
+    padding: 50px 150px;
+    text-align: center;
+}
+.plan-area{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.plan-item{
+    margin: 40px 0;
+}
+.plan-title{
+    font-size: 20px;
+    margin: 10px 0;
+}
+/* =========calling-section============ */
+.calling-section{
+    padding: 50px 170px;
+}
+.calling-area{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url("images/watch.png");
+    border-radius: 8px;
+    padding: 70px;
+}
+.calling-title{
+    font-size: 30px;
+    margin: 10px 0;
+    color: white;
 }
