@@ -87,3 +87,56 @@ header{
     margin: 10px 0;
     color: white;
 }
+/* =========visit-section============ */
+.visit-area{
+    padding: 50px 170px;
+}
+.my-gallery{
+    display: flex;
+    gap: 30px;
+}
+.my-gallery img{
+    width: 320px;
+    border-radius: 5px;
+}
+.gallery-title{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+/* =========footer-section============ */
+footer{
+    background: #151414;
+    padding: 50px 170px;
+    color: #cacaca;
+}
+.footer-content-area{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.footer-des{
+    margin: 10px 0;
+}
+.footer-img{
+    margin: 5px;
+}
+input[type='email']{
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #cacaca;
+}
+input[type='submit']{
+    background-color: #005FAC;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
